@@ -1,0 +1,138 @@
+
+        body {
+            background-image: url("pic4.jpg");
+           background-repeat:round;
+           
+        }
+        
+       
+        ul {
+            margin-top: 3%;
+            margin-left: 10%;
+            display: flex;
+            /* justify-content:center; */
+        }
+
+        ul li{
+            list-style-type:none;
+            padding: 10px 9px;
+        }
+        
+     ul li a{
+        font-size: 20px;
+        color: gold;
+        margin-top:0%;
+        text-decoration: none;
+        padding: 9px;
+        justify-items: right;
+    }
+   
+
+ul li a:hover{
+    color:red;
+
+}
+
+ .info{
+     margin-top: 5%;
+     color: white;
+     margin-left: 15px;
+     padding: 23px;
+     
+ }
+ .info h1,h2{
+     font-style: italic;
+ }
+ /* .info h1,h2{
+     font-family:italic;
+ } */
+span{
+    color: #6ded5c;
+}
+
+     .info a {
+         text-decoration : none;
+         color:white;
+         background:green;
+         margin-top: 2%;
+         padding: 10px ;
+         border-radius: 10px ;
+         display:inline-block;
+        
+        
+     }   
+     .info a:hover{
+         background:black;
+     }
+
+    img{
+    height: 400px;
+    width: 500px;
+    position: absolute;
+    right: 50%;
+    bottom:0;
+
+    }
+
+    .image img {
+        position: absolute;
+        height: 50%;
+        width: 20%;
+        left:33%;
+        transform: translate(30%);
+        bottom:25%;
+        border-radius:70%;
+        box-shadow: 5px 5px 5px 3px lightgoldenrodyellow;
+        transition: left 2s;
+        border: 2px solid whitesmoke;
+    } 
+    .image :hover {
+        right:20%;
+    }
+   
+     .p h3{
+         color: #b2c0d9;
+         left: 70%;
+         position:absolute; 
+         top:15%;
+         font-family: Papyrus;
+         padding:50px;
+         
+         }
+
+    /* #icon {
+        font-size: 30px;
+        margin-left: 45%;
+        margin-bottom: 10%;
+     
+    }
+    #icon a{
+        text-decoration:none;
+        
+    } */
+    .footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color:skyblue;
+        color: white;
+        text-align: center;
+    }
+
+    .footer a {
+        font-size: 30px;
+        padding: 10px;
+        text-decoration: none;
+        
+    }
+    .logo img {
+        height: 13%;
+        width: 8%;
+        top: 5%;
+        left: 2%;
+        border-radius: 16%;
+    }
+   
+    
+    
